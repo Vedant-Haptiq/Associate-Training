@@ -1,0 +1,98 @@
+body{
+    font-family:'DM Sans',sans-serif;
+}
+
+
+.logo{
+    width: 111px;
+    height: 19px;
+    margin-top: 20px;
+}
+.signup{
+    width: 111px;
+    height: 40px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 70px;
+    width: 714px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.container-2 p{
+    text-align: center; 
+    width: 625px;
+    height: 96px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8c8c99;
+}
+
+.create{
+    display: block;
+}
+
+.container-2 a{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation-1{
+
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+.navigation-1 li{
+     
+    font-size: 25px;
+    margin: 10px;
+}
+.navigation-2{
+    list-style: none;
+    display: flex;
+}
+
+.navigation-2 li{
+    margin: 20px;
+}
+.navigation-2 a{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.cards img{
+    height: 110px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+.cards p{
+    font-size: 18px;
+    height: 84px;
+    width: 228px;
+}
+
+.cards{
+    display:flex;
+    justify-content: space-around;
+}
+
+.c2{
+    align-items: center;
+}
