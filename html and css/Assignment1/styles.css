@@ -4,9 +4,10 @@ body{
 
 
 .logo{
-    width: 111px;
-    height: 19px;
-    margin-top: 20px;
+    width: 106px;
+    height: 22px;
+    margin-top: 30px;
+    font-size: 24px;
 }
 .signup{
     width: 111px;
@@ -16,6 +17,7 @@ body{
 .container-1{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 h1{
     text-transform: capitalize;
@@ -40,11 +42,6 @@ h1{
     margin-right: auto;
     color: #8c8c99;
 }
-
-.create{
-    display: block;
-}
-
 .container-2 a{
     
     margin-left: auto;
@@ -56,12 +53,16 @@ h1{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    width: 352px;
+    height: 22px;
+    margin-top: 30px;
     
 }
 .navigation-1 li{
      
-    font-size: 25px;
+    font-size: 16px;
     margin: 10px;
+    color: #8c8c99;
 }
 .navigation-2{
     list-style: none;
@@ -70,10 +71,20 @@ h1{
 
 .navigation-2 li{
     margin: 20px;
+    color: #25DAC5;
+    font-weight: 500;
 }
 .navigation-2 a{
-    margin: 20px;
+    display: inline-block;
+    border-radius: 100px;
     text-decoration: none;
+    padding: 20px;
+    background-color: #25DAC5;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 64px;
+    height: 26px;
 }
 
 .cards img{
@@ -91,8 +102,49 @@ h1{
 .cards{
     display:flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.c2{
+.c1,
+.c2,
+.c3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.c2,
+.c1,
+.c3 img{
+    align-items: center;
+    
+    
+}
+
+.create a{
+    display: block;
+    text-align: center;
+    width: 178px;
+    height: 26px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color:  #E93A7D;
+    padding: 20px;
+    border-radius: 999px;
+    margin-bottom: 100px;
+
+}
+
+.text{
+    margin-bottom: 0 0 50px 0;
+}
+
+.text p{
+    margin-bottom: 50px;
+}
+.cards img{
     align-items: center;
 }
