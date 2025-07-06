@@ -14,7 +14,6 @@ body{
 .container-1{
     display: flex;
     width: 1600px;
-    
     margin: 50px 150px;
     margin-top: 0px;
     justify-content: space-around;
@@ -74,13 +73,6 @@ body{
     width: 90px;
     height: 26px;
 }
-
-/* .c2,
-.c1,
-.c3 img{
-    align-items: center;
- 
-} */
 
 
 h1{
