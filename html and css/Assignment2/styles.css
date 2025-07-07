@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'hebbo', sans-serif;
-    color: 21243D#;
+    color: #21243D;
 }
 
 .container{
@@ -11,10 +11,14 @@ body{
 }
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 170px;
     padding: 20px 0;
+    color: #21243D;
+    margin: 0 auto;
+    margin-bottom: 170px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
 }
 
 .logo{
@@ -69,24 +73,45 @@ a{
 
 .uList{
     display: flex;
+    justify-content: space-between;
+    align-items: center ;
     list-style: none;
-    gap: 100px;
     padding: 0;
-    margin-right: 300px;
     font-size: 20px;
     font-weight: 500;
+    margin: 0;
     
 }
 
 .uList li{
-    width: 57px;
     font-size: 20px;
     font-weight: 500;
-}
-
-.uList li a{
     color: #21243D;
 }
+
+
+.navVedant{
+    margin-left: 200px;
+    color: #21243D;
+    font-size: 30px;
+}
+
+.navVedant:hover{
+    color: red;
+}
+
+
+.newNav{
+    display: flex;
+    gap: 50px;
+    margin-right: 200px;
+    color: #21243D;
+}
+
+.newNav li a{
+    color: #21243D;
+}
+
 
 .containerOne{
     display: flex;
@@ -158,20 +183,19 @@ a{
 }
 
 .cards h4{
-    width: 300px;
     font-weight: 400;
     font-size: 18px;
-    padding-left: 20px;
     margin-top: 0;
+    padding: 20px;
+    margin-bottom: 0;
 }
 
 .cards p{
-    width: 368px;
     font-weight: 400;
     font-size: 16px;
-    padding: 0 20px;
     margin-top: 0;
     line-height: 25px;
+    padding: 20px;
 }
 
 .fwImage{
@@ -181,17 +205,20 @@ a{
 }
 
 .cardOne{
-    width: 418px;
+
     background-color: #fff;
     margin-bottom: 50px;    
     border-radius: 5px;
+    width: 560px;
 
 }
 .cardTwo{
-    width: 418px;
+
     background-color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
     border-radius: 5px;
+    width: 560px;
+
 
 }
 
@@ -302,6 +329,12 @@ a{
     height: 30px;
     width: 30px;
     padding: 0 20px;
+    color: #21243D;
+
+}
+
+.iIcon:hover{
+    color: red;
 }
 
 .containerFour .footerContainer{
