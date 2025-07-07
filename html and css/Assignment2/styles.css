@@ -165,12 +165,9 @@ a{
 
 .timeLine{
     display: flex;
-    justify-content: space-around;
+    
 }
 
-.date{
-    width: 250px;
-}
 
 .cards h2{
     width: 374px;
