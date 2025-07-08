@@ -113,7 +113,7 @@ h1 {
 
 #services,
 #features {
-    padding: 120px 0;
+    padding-top: 120px;
 }
 
 .sectionHeader {
@@ -236,4 +236,41 @@ h2 {
     list-style-type: disc;
     list-style-position: inside;
     color: #393e46;
+}
+
+
+footer {
+  margin: 128px 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+footer .logo a {
+  color: #6C00FF;
+  width: 71px;
+  height: 26px;
+  font-size: 25px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+
+footer .footerLinks li a,p{
+  color:#393E46;
+  border: none; 
+}
+
+.footerLinks ul li .active,
+.footerLinks ul li a:hover {
+  border: none;
+}
+
+.footerNav{
+    display: flex;
+    gap: 50px;
 }
