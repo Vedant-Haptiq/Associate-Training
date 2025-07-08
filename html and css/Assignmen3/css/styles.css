@@ -77,7 +77,7 @@ h1 {
 }
 
 .heroBanner {
-    background: url("./../assets/main\ img.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(14,8,22,0.6),rgba(14,8,22,0.6)),url("./../assets/main\ img.jpg") no-repeat center center/cover;
     height: 100vh;
     margin-top: -126px; /* Adjust based on header height */
     display: flex;
@@ -174,7 +174,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 64px;
+    gap: 140px;
     margin-bottom: 120px;
 }
 
@@ -205,8 +205,7 @@ h2 {
     max-width: 475px;
     height: 400px;
     overflow: hidden;
-    box-shadow: 34px 34px 0 0 #6c00ff;
-    border-radius: 8px;
+    
 }
 
 .unorderedListofFeatures .liFeatureOne,
@@ -218,6 +217,10 @@ h2 {
     color: #222831;
 }
 
+.unorderedListofFeatures{
+    padding: 0;
+}
+
 .liClass {
     display: flex;
     align-items: center;
@@ -227,10 +230,6 @@ h2 {
 .liImage {
     width: 24px;
     height: 24px;
-}
-
-.featureBlock ul {
-    padding-left: 20px;
 }
 
 .featureBlock ul li {
