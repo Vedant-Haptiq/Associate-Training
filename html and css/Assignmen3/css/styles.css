@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #21243d;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: #fff;
+}
+
+.ctaIcon {
+    font-size: 24px;
+}
+
+.pageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px; /* Added for responsiveness on smaller screens */
+}
+
+.headerContentWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+}
+
+.brandLogo img {
+    max-width: 150px;
+}
+
+.navigationMenu ul {
+    display: flex;
+    gap: 18px;
+}
+
+.navigationMenu ul li a {
+    padding: 8px 16px;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    border-radius: 100px;
+    border: 1px solid transparent;
+}
+
+.navigationMenu ul li .currentPage,
+.navigationMenu ul li a:hover {
+    border: 1px solid #fff;
+}
+
+.heroBanner {
+    background: url("./../assets/main\ img.jpg") no-repeat center center/cover;
+    height: 100vh;
+    margin-top: -126px; /* Adjust based on header height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroBannerInner {
+    text-align: center;
+}
+
+.heroBannerInner p {
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto 64px;
+}
+
+.heroActionButton {
+    background-color: #6c00ff;
+    color: #fff;
+    padding: 16px 32px;
+    font-weight: 600;
+    border-radius: 32px;
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.heroActionButton:hover {
+    background-color: #5600cc;
+}
+
+#services,
+#features {
+    padding: 120px 0;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #6c00ff;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #222831;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.serviceCardsContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+}
+
+.serviceCardItem {
+    text-align: center;
+    max-width: 300px;
+}
+
+.serviceIconContainer {
+    margin-bottom: 32px;
+}
+
+.serviceCardItem .ctaIcon {
+    border-radius: 50%;
+    padding: 32px;
+    color: #fff;
+    font-size: 48px;
+    background-color: #6c00ff;
+    display: inline-block;
+}
+
+.serviceCardItem h3 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.serviceCardItem p {
+    color: #393e46;
+}
+
+.featureBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    margin-bottom: 120px;
+}
+
+.featureBlock:last-child {
+    margin-bottom: 0;
+}
+
+.featureBlock.featureBlockFirst {
+    flex-direction: row-reverse;
+}
+
+.featureBlockContent {
+    flex: 1;
+}
+
+.featureBlockContent h2 {
+    margin-bottom: 16px;
+}
+
+.featureBlockContent p,
+.featureBlockContent .featureBlockContentPara {
+    margin-bottom: 32px;
+    color: #393e46;
+}
+
+.featureBlockImage {
+    flex: 1;
+    max-width: 475px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 34px 34px 0 0 #6c00ff;
+    border-radius: 8px;
+}
+
+.unorderedListofFeatures .liFeatureOne,
+.featureBlock ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #222831;
+}
+
+.liClass {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.liImage {
+    width: 24px;
+    height: 24px;
+}
+
+.featureBlock ul {
+    padding-left: 20px;
+}
+
+.featureBlock ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #393e46;
+}

@@ -1,11 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="pageContainer headerContentWrapper">
+        <nav class="navigationMenu">
+          <ul>
+            <li><a href="/" class="currentPage">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="heroBanner">
+      <div class="pageContainer heroBannerInner">
+        <div>
+          <h1>Perfect Landing Page<br />Design Tutorial</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+          <a href="#" class="heroActionButton"
+            ><i class="fa fa-play-circle ctaIcon" aria-hidden="true"></i>
+            <span>Watch Intro</span></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="pageContainer">
+        <header class="sectionHeader">
+          <h4>services</h4>
+          <h2>What we do</h2>
+        </header>
+
+        <ul class="serviceCardsContainer">
+          <li class="serviceCardItem">
+            <div class="serviceIconContainer">
+              <i class="fa fa-mobile ctaIcon"></i>
+            </div>
+            <h3>Mobile App Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </li>
+
+          <li class="serviceCardItem">
+            <div class="serviceIconContainer">
+              <i class="fa fa-television ctaIcon" aria-hidden="true"></i>
+            </div>
+            <h3>Website Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </li>
+
+          <li class="serviceCardItem">
+            <div class="serviceIconContainer">
+              <i class="fa fa-cube ctaIcon" aria-hidden="true"></i>
+            </div>
+            <h3>Packaging Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="pageContainer">
+        <div class="featureBlock">
+          <div class="featureBlockContent">
+            <h4>feature 1</h4>
+            <h2>Designed for individuals</h2>
+            <div class="featureBlockContentPara">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+
+            <ul class="unorderedListofFeatures">
+              <li class="liFeatureOne">
+                <div class="liClass">
+                  <div class="liImage">
+                    <img src="./assets/chekmark.svg" alt="" />
+                  </div>
+                  <span>Some cool features</span>
+                </div>
+              </li>
+              <li class="liFeatureOne">
+                <div class="liClass">
+                  <div class="liImage">
+                    <img src="./assets/chekmark.svg" alt="" />
+                  </div>
+                  <span>About the product</span>
+                </div>
+              </li>
+              <li class="liFeatureOne">
+                <div class="liClass">
+                  <div class="liImage">
+                    <img src="./assets/chekmark.svg" alt="" />
+                  </div>
+                  <span>Which will amazed you</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="featureBlockImage">
+            <img src="./assets/two girls.png" alt="" />
+          </div>
+        </div>
+
+        <div class="featureBlock featureBlockFirst">
+          <div class="featureBlockContent">
+            <h4>feature 1</h4>
+            <h2>Designed for big and small business</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+
+            <ul>
+              <li>Some cool features</li>
+              <li>About the product</li>
+              <li>Which will amazed you</li>
+            </ul>
+          </div>
+
+          <div class="featureBlockImage">
+            <img src="./assets/only boy.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
