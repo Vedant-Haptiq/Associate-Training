@@ -3,259 +3,281 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assingment 4</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Insurance Landing Page</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media-mobile.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container containerHeader">
-        <h3 class="logo"><a href="#">BrandName</a></h3>
-        <nav class="navigation">
-          <ul class="listOfNavigation">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a class="contact" href="#">Contact</a></li>
-            <li><a href="">Login</a></li>
-            <li>
-              <div class="loginBecome">
-                <a class="becomeButton" href="">Become a member</a>
-                <img src="./assets/arrow vector.png" alt="" />
-              </div>
-            </li>
+    <!-- Header Navigation -->
+    <header class="headerSection">
+      <div class="container navBarWrap">
+        <!-- Wrap Brand and Icons Together -->
+        <div class="brandRow">
+          <div class="logoText">BrandName</div>
+          <div class="iconGroup">
+            <img src="./assets/search.png" alt="search" class="navIcon" />
+            <img src="./assets/cart iconns.png" alt="" class="navIcon" />
+            <img src="./assets/3 lines.png" alt="menu" class="navIcon" />
+          </div>
+        </div>
+
+        <nav class="navBar">
+          <ul class="navList">
+            <li><a href="#" class="navLink">Home</a></li>
+            <li><a href="#" class="navLink">Product</a></li>
+            <li><a href="#" class="navLink">Pricing</a></li>
+            <li><a href="#" class="navLink">Contact</a></li>
           </ul>
         </nav>
+
+        <div class="authButtons">
+          <a href="#" class="loginButton">Login</a>
+          <a href="#" class="signupButton">
+            Become a member
+            <img
+              src="./assets/arrow vector.png"
+              alt="arrow"
+              class="signupArrow"
+            />
+          </a>
+        </div>
       </div>
     </header>
-    <section class="sectionOne">
-      <div class="container containerBanner">
-        <div class="mainHeading">
-          <h1>
-            We Ensure A Best <br />
+
+    <section class="heroSection">
+      <div class="container heroContent">
+        <div class="headingWrap">
+          <h1 class="heroHeading">
+            We Ensure A Best
             Insurance Service
           </h1>
-        </div>
-        <h4 class="subHeading">
-          We know how large objects will act, <br />
-          but things on a small scale.
-        </h4>
-        <div class="bannerButtons">
-          <a class="getQuoteNow" href="#">Get Quote Now</a>
-          <a class="learnMore" href="#">Learn More</a>
-        </div>
-      </div>
-    </section>
-    <section class="sectionTwo">
-      <div class="container containerFeatures">
-        <div class="feature featureOne">
-          <div class="imageIcon">
-            <img src="./assets/book icon.png" alt="" />
-          </div>
-          <h5 class="featureDescription">Peace of Mind</h5>
-          <div class="featurePara">
-            <p>So it really behaves like neither. Now we have given up.</p>
-          </div>
-        </div>
-        <div class="feature featureTwo">
-          <div class="imageIcon">
-            <img src="./assets/save icon.png" alt="" />
-          </div>
-          <h5 class="featureDescription">Peace of Mind</h5>
-          <div class="featurePara">
-            <p>So it really behaves like neither. Now we have given up.</p>
-          </div>
-        </div>
-        <div class="feature featureThree">
-          <div class="imageIcon">
-            <img src="./assets/tow person icon.png" alt="" />
-          </div>
-          <h5 class="featureDescription">Peace of Mind</h5>
-          <div class="featurePara">
-            <p>So it really behaves like neither. Now we have given up.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="sectionThree">
-      <div class="container containerIndustry">
-        <div class="industryInfo">
-          <h2 class="industry">Industry</h2>
-          <p>
-            Problems trying to resolve the conflict between <br />
-            the two major realms of Classical physics: Newtonian mechanics
+          <p class="heroSubtext">
+            We know how large objects will act, <br />
+            but things on a small scale.
           </p>
+          <div class="heroButtons">
+            <a href="#" class="btnPrimary">Get Quote Now</a>
+            <a href="#" class="btnSecondary">Learn More</a>
+          </div>
         </div>
-        <div class="cards">
-          <div class="card cardOne">
-            <h3 class="devName">Regina Miles</h3>
-            <h4 class="devRole">Designer</h4>
-            <ul class="stars">
-              <li>
-                <img src="./assets/filled star.png" alt="" />
-              </li>
-              <li>
-                <img src="./assets/filled star.png" alt="" />
-              </li>
-              <li>
-                <img src="./assets/filled star.png" alt="" />
-              </li>
-              <li>
-                <img src="./assets/filled star.png" alt="" />
-              </li>
-              <li>
-                <img src="./assets/empty star.png" alt="" />
-              </li>
-            </ul>
-            <div class="devDescription">
-              <p>
-                This proved to be impossible using the traditional concepts of
-                space and time. Einstein developed a new view of time first and
-                then space. This proved to be impossible using the traditional
-                concepts of space and time. Einstein developed a new view of
-                time first and then space.
-              </p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="featuresSection">
+      <div class="container featuresGrid">
+        <div class="featureItem">
+          <img src="./assets/book icon.png" alt="Peace of Mind" />
+          <h3>Peace of Mind</h3>
+          <p>So it really behaves like neither. Now we have given up.</p>
+        </div>
+        <div class="featureItem">
+          <img src="./assets/save icon.png" alt="Set For Life" />
+          <h3>Set For Life</h3>
+          <p>They were used to create the machines that launched</p>
+        </div>
+        <div class="featureItem">
+          <img src="./assets/tow person icon.png" alt="100% Satisfaction" />
+          <h3>100% Satisfaction</h3>
+          <p>So it really behaves like neither. Now we have given up.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonialsSection">
+      <div class="container containerSectionTitle">
+        <h2 class="sectionTitle">What Clients Say</h2>
+        <p class="sectionSubtitle">
+          Problems trying to resolve the conflict between <br />
+          the two major realms of Classical physics: Newtonian mechanics
+        </p>
+
+        <div class="testimonialGrid">
+          <div class="testinomialCardLayout">
+            <div class="testimonialCard">
+              <div class="userImageWrap">
+                <img src="./assets/girl image.png" alt="Regina Miles" />
+              </div>
+              <div class="testimonialContent">
+                <h3>Regina Miles</h3>
+                <p>Designer</p>
+                <img src="./assets/5 star.png" alt="5-star rating" />
+                <div class="message">
+                  <p>
+                    This proved to be impossible using the traditional concepts
+                    of space and time. Einstein developed a new view of time
+                    first and then space.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card cardTwo">
-            <h3 class="devName">Regina Miles</h3>
-            <h4 class="devRole">Designer</h4>
-            <ul class="stars">
-              <li>
-                <img src="./assets/filled star.png" alt="" />
-              </li>
-              <li>
-                <img src="./assets/filled star.png" alt="" />
-              </li>
-              <li>
-                <img src="./assets/filled star.png" alt="" />
-              </li>
-              <li>
-                <img src="./assets/filled star.png" alt="" />
-              </li>
-              <li>
-                <img src="./assets/empty star.png" alt="" />
-              </li>
-            </ul>
-            <div class="devDescription">
-              <p>
-                This proved to be impossible using the traditional concepts of
-                space and time. Einstein developed a new view of time first and
-                then space. This proved to be impossible using the traditional
-                concepts of space and time. Einstein developed a new view of
-                time first and then space.
-              </p>
+
+          <div class="testinomialCardLayout">
+            <div class="testimonialCard">
+              <div class="userImageWrap">
+                <img src="./assets/girl image.png" alt="Regina Miles" />
+              </div>
+              <div class="testimonialContent">
+                <h3>Regina Miles</h3>
+                <p>Designer</p>
+                <img src="./assets/5 star.png" alt="5-star rating" />
+                <div class="message">
+                  <p>
+                    This proved to be impossible using the traditional concepts
+                    of space and time. Einstein developed a new view of time
+                    first and then space.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="projectsSection">
+      <div class="container">
+        <h2 class="sectionTitle">
+          We Are Optimists Who Love To Work Toghether
+        </h2>
+        <p class="sectionSubtitle">
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
+        </p>
+
+        <div class="projectGrid">
+          <div class="projectCard">
+            <div class="vedant">
+                <img src="./assets/forst.png" alt="Project 1" />
+            </div>
+            <div class="projectContent">
+              <p class="category">Tax Management</p>
+              <h3 class="title">Life Tips From Top Ten Adventure Travelers</h3>
+              <a href="#" class="btnView">View Project</a>
+            </div>
+          </div>
+
+          <div class="projectCard">
+            <div class="vedant">
+                <img src="./assets/night.png" alt="Project 2" />
+            </div>
+            <div class="projectContent">
+              <p class="category">Tax Management</p>
+              <h3 class="title">Life Tips From Top Ten Adventure Travelers</h3>
+              <a href="#" class="btnView">View Project</a>
+            </div>
+          </div>
+
+          <div class="projectCard">
+            <div class="vedant">
+                <img src="./assets/money.png" alt="Project 3" />
+            </div>
+            <div class="projectContent">
+              <p class="category">Tax Management</p>
+              <h3 class="title">Life Tips From Top Ten Adventure Travelers</h3>
+              <a href="#" class="btnView">View Project</a>
+            </div>
+          </div>
+
+          <div class="projectCard">
+            <div class="vedant">
+                <img src="./assets/data.png" alt="Project 4" />
+            </div>
+            <div class="projectContent">
+              <p class="category">Tax Management</p>
+              <h3 class="title">Life Tips From Top Ten Adventure Travelers</h3>
+              <a href="#" class="btnView">View Project</a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="verticalCards">
-      <section class="container sectionFour">
-        <div class="industryInfo">
-          <h2 class="industry">Industry</h2>
-          <div class="industryPara">
-            <p>
-              Problems trying to resolve the conflict between <br />
-              the two major realms of Classical physics: Newtonian mechanics
-            </p>
-          </div>
+
+    <section class="consultingBar">
+      <div class="container consultingContent">
+        <div class="consultingText">
+          <h3>Consulting Agency For Your Business</h3>
+          <p>The quick fox jumps over the lazy dog</p>
         </div>
-        <div class="fourProjects">
-          <div class="project projectOne">
-            <h6 class="projectDomain">Tax Management</h6>
-            <h4 class="projectDescription">
-              Life Tips From Top Ten Adventure Travelers
-            </h4>
-            <h2 class="viewProject">View Project</h2>
-          </div>
-          <div class="project projectTwo">
-            <h6 class="projectDomain">Tax Management</h6>
-            <h4 class="projectDescription">
-              Life Tips From Top Ten Adventure Travelers
-            </h4>
-            <h2 class="viewProject">View Project</h2>
-          </div>
-          <div class="project projectThree">
-            <h6 class="projectDomain">Tax Management</h6>
-            <h4 class="projectDescription">
-              Life Tips From Top Ten Adventure Travelers
-            </h4>
-            <h2 class="viewProject">View Project</h2>
-          </div>
-          <div class="project projectFour">
-            <h6 class="projectDomain">Tax Management</h6>
-            <h4 class="projectDescription">
-              Life Tips From Top Ten Adventure Travelers
-            </h4>
-            <h2 class="viewProject">View Project</h2>
-          </div>
-        </div>
-      </section>
-    </section>
-    <section class="lastSection">
-      <section class="container footerContainer">
-        <div class="footerNav">
-          <h4>Company Info</h4>
-          <ul class="footerUlist">
-            <li>About Us</li>
-            <li>Carrier</li>
-            <li>We are hiring</li>
-            <li>Blog</li>
-          </ul>
-        </div>
-        <div class="footerNav">
-          <h4>Company Info</h4>
-          <ul class="footerUlist">
-            <li>About Us</li>
-            <li>Carrier</li>
-            <li>We are hiring</li>
-            <li>Blog</li>
-          </ul>
-        </div>
-        <div class="footerNav">
-          <h4>Company Info</h4>
-          <ul class="footerUlist">
-            <li>About Us</li>
-            <li>Carrier</li>
-            <li>We are hiring</li>
-            <li>Blog</li>
-          </ul>
-        </div>
-        <div class="footerNav">
-          <h4>Company Info</h4>
-          <ul class="footerUlist">
-            <li>About Us</li>
-            <li>Carrier</li>
-            <li>We are hiring</li>
-            <li>Blog</li>
-          </ul>
-        </div>
-        <div class="footerNav">
-          <h4>Company Info</h4>
-          <ul class="footerUlist">
-            <li>About Us</li>
-            <li>Carrier</li>
-            <li>We are hiring</li>
-            <li>Blog</li>
-          </ul>
-        </div>
-      </section>
-    </section>
-    <section class="container bottomSection">
-      <h6>Made With Love By Figmaland All Right Reserved</h6>
-      <div>
-        <ul class="bottomList">
-          <li><img src="./assets/fb.png" alt="" /></li>
-          <li><img src="./assets/insta.png" alt="" /></li>
-          <li><img src="./assets/twiter.png" alt="" /></li>
-        </ul>
+        <a href="#" class="contactBtn">Contact Us</a>
       </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="siteFooter">
+      <div class="footerMain">
+        <div class="container footerGrid">
+          <div class="footerColumn">
+            <h4>Company Info</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Carrier</li>
+              <li>We are hiring</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+
+          <div class="footerColumn">
+            <h4>Legal</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Carrier</li>
+              <li>We are hiring</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+
+          <div class="footerColumn">
+            <h4>Features</h4>
+            <ul>
+              <li>Business Marketing</li>
+              <li>User Analytic</li>
+              <li>Live Chat</li>
+              <li>Unlimited Support</li>
+            </ul>
+          </div>
+          <div class="footerColumn">
+            <h4>Resources</h4>
+            <ul>
+              <li>IOS & Android</li>
+              <li>Watch a Demo</li>
+              <li>Customers</li>
+              <li>API</li>
+            </ul>
+          </div>
+
+          <div class="footerColumn contact">
+            <h4>Get In Touch</h4>
+            <ul>
+              <li>
+                <img src="./assets/phone.png" alt="Phone" /> (480) 555-0103
+              </li>
+              <li>
+                <img src="./assets/map.png" alt="Location" /> 4577 Washington
+                Ave.
+              </li>
+              <li>
+                <img src="./assets/msg.png" alt="Email" />
+                debra.holt@example.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footerBottom">
+        <div class="container footerBottomContent">
+          <p class="footerNote">
+            Made With Love By Figmaland All Right Reserved
+          </p>
+          <div class="socialIcons">
+            <img src="./assets/fb.png" alt="Facebook" />
+            <img src="./assets/insta.png" alt="Instagram" />
+            <img src=".//assets/twiter.png" alt="Twitter" />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
