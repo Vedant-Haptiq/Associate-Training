@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.scrollBar{
+    display: none;
+}
+.frontSection {
+  background-color: #74c69d;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+.navList {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.navList a {
+  text-decoration: none;
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #ffffff;
+  
+}
+.navList li a:hover{
+    color: #000000;
+}
+.containerTwo {
+  display: flex;
+  padding-bottom: 83px;
+  margin-bottom: 60px;
+}
+.bannerText {
+  padding: 40px 0;
+}
+.bannerImage img {
+  height: 379px;
+  width: 645px;
+}
+.bannerText h4 {
+  font-family: "work sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.bannerText h1 {
+  font-family: "crimson text", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.bannerText p {
+  margin: 0;
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #ffffffbf;
+}
+.bannerPara {
+  margin-bottom: 40px;
+}
+.exploreButton{
+    max-width: 170px;
+}
+
+.exploreButton a {
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #000000;
+  text-decoration: none;
+  padding: 13px 48px;
+  background-color: white;
+  border-radius: 5px;
+}
+.exploreButton a:hover{
+    background-color: black;
+    color: white;
+}
+.containerThree {
+  margin-bottom: 73px;
+}
+.partners h4 {
+  text-align: center;
+  font-family: "work sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 5px;
+  color: #74c69d;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.partners h2 {
+  text-align: center;
+  font-family: "crimson text", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+.partnersPara p {
+  text-align: center;
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.partners {
+  max-width: 411px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+.companyLogos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+.learnMoreButton {
+  text-align: center;
+  background-color: #000000;
+  padding: 13px 30px;
+  border-radius: 5px;
+  max-width: 171px;
+  margin: 0 auto;
+}
+.learnMoreButton a {
+  text-decoration: none;
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.learnMoreButton:hover{
+    background-color: #74C69D;
+}
+
+.feature {
+  display: flex;
+}
+.learnMore {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 89px 0;
+  padding-left: 110px;
+}
+.learnMore h2 {
+  font-family: "crimson text", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.learnMorePara {
+  margin: 0;
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #21252980;
+}
+.learnMoreButtonSide {
+  text-align: start;
+  margin: 0;
+}
+.learnMoreTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 155px 0;
+  padding-right: 110px;
+}
+.featureOne {
+  margin-bottom: 73px;
+}
+.featureTwo {
+  margin-bottom: 73px;
+}
+.containerFour {
+  margin-bottom: 103px;
+}
+.profiles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.imgCard {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px 40px;
+  max-width: 280px;
+  max-height: 300px;
+}
+.profileImage {
+  padding: 0 13.5px;
+  padding-bottom: 20px;
+}
+.imgCard h4 {
+  font-family: "crimson text", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #212529;
+  margin-bottom: 17px;
+}
+.imgCard h6 {
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #212529bf;
+}
+.viewTeam {
+  text-align: center;
+  background-color: #000000;
+  padding: 13px 30px;
+  border-radius: 5px;
+  max-width: 171px;
+  margin: 0 auto;
+}
+.viewTeam:hover{
+    color: black;
+    background-color: #74C69D;
+}
+.viewTeam a {
+  text-decoration: none;
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.containerFive {
+  margin-bottom: 54px;
+}
+.footer {
+  background-color: #74c69d;
+}
+.socialMediaIcons {
+  display: flex;
+  gap: 20px;
+}
+.socialMediaIcons li {
+  list-style: none;
+}
+.containerSix {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.footerPara p {
+  font-family: "work sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}

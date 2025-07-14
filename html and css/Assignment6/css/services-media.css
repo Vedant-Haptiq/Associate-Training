@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .logo{
+    max-width: 130px;
+    max-height: 40px;
+  }
+  .partners h2{
+    font-size: 24px;
+  }
+  .navList {
+    display: none;
+  }
+  .scrollBar{
+    display: block;
+  }
+  .containerThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+  }
+  .card{
+    margin-bottom: 50px;
+  }
+  .cardThree{
+    margin-bottom: 70px;
+  }
+  .liIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .socialMediaIcons {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .containerSix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 31px 0;
+  }
+  .footerPara p {
+    text-align: center;
+  }
+  
+}
+

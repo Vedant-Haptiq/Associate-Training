@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-margin: 0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: "Montserrat",sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   max-width: 1200px;
@@ -47,7 +47,6 @@ body{
   padding: 0;
 }
 
-
 .navLink {
   font-weight: 600;
   font-size: 14px;
@@ -60,9 +59,6 @@ body{
   border-radius: 16px;
   transition: 0.3s ease;
 }
-
-
-
 
 .authButtons {
   display: flex;
@@ -82,7 +78,7 @@ body{
 .signupButton {
   width: 214px;
   height: 52px;
-  background: #23A6F0;
+  background: #23a6f0;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -104,13 +100,16 @@ body{
 /* Hero Section */
 .heroSection {
   height: 100vh;
-   background-image: 
-    linear-gradient(89.85deg, #000000 0.13%, #000000 0.14%, rgba(0, 0, 0, 0) 99.56%),
-    url('../assets/background.jpg');
+  background-image: linear-gradient(
+      89.85deg,
+      #000000 0.13%,
+      #000000 0.14%,
+      rgba(0, 0, 0, 0) 99.56%
+    ),
+    url("../assets/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  
 }
 
 .heroContent {
@@ -157,7 +156,7 @@ body{
 }
 
 .btnPrimary {
-  background-color: #23A6F0;
+  background-color: #23a6f0;
   color: #fff;
 }
 
@@ -167,12 +166,12 @@ body{
   border: 1px solid #ffffff;
 }
 .featuresSection {
-  background: #252B42;
+  background: #252b42;
   padding: 60px 0 96px 0;
   color: white;
   height: 435px;
   display: flex;
-  align-items: center;  
+  align-items: center;
   justify-content: center;
 }
 
@@ -214,7 +213,7 @@ body{
 }
 
 .testimonialsSection {
-  background: #8EC2F2;
+  background: #8ec2f2;
   padding: 80px 0;
 }
 
@@ -303,7 +302,7 @@ body{
   margin: 0;
 }
 
-.message p{
+.message p {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -311,7 +310,6 @@ body{
   color: #737373;
   margin-top: 10px;
 }
-
 
 .projectsSection {
   background-color: #2a2f4a;
@@ -359,8 +357,8 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;             
-  object-fit: cover;       
+  height: 100%;
+  object-fit: cover;
   z-index: 1;
 }
 
@@ -478,7 +476,7 @@ body{
 
 .footerColumn ul {
   list-style: none;
- }
+}
 
 .footerColumn li {
   color: #ffffff;
@@ -524,7 +522,6 @@ body{
   cursor: pointer;
 }
 
-
 .brandRow {
   display: flex;
   align-items: center;
@@ -533,7 +530,7 @@ body{
 }
 
 .iconGroup {
-  display: none; 
+  display: none;
 }
 
 .navIcon {
@@ -541,7 +538,6 @@ body{
   height: 24px;
   cursor: pointer;
 }
-
 
 @media (max-width: 768px) {
   /* HEADER */
@@ -560,22 +556,22 @@ body{
     display: none; /* hide login/signup */
   }
 
-.iconGroup {
-  display: flex;
-  gap: 16px;
-}
+  .iconGroup {
+    display: flex;
+    gap: 16px;
+  }
 
-.logoText {
-  font-size: 24px;
-  line-height: 32px;
-}
+  .logoText {
+    font-size: 24px;
+    line-height: 32px;
+  }
 
-.brandRow {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .brandRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   /* HERO SECTION */
   .heroHeading {
@@ -634,7 +630,7 @@ body{
     padding: 40px 20px;
   }
 
- .userImageWrap {
+  .userImageWrap {
     display: none;
   }
 
